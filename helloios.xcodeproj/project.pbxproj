@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB98EE2727FD471400A0938C /* helloios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB98EE2727FD471400A0938C /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB98EE2A27FD471400A0938C /* helloiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloiosApp.swift; sourceTree = "<group>"; };
 		DB98EE2C27FD471400A0938C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB98EE2E27FD471500A0938C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +71,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB23159827FD48D800378DD9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		DB98EE1E27FD471400A0938C = {
 			isa = PBXGroup;
 			children = (
@@ -84,7 +91,7 @@
 		DB98EE2827FD471400A0938C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB98EE2727FD471400A0938C /* helloios.app */,
+				DB98EE2727FD471400A0938C /* Hello.app */,
 				DB98EE3727FD471600A0938C /* helloiosTests.xctest */,
 				DB98EE4127FD471600A0938C /* helloiosUITests.xctest */,
 			);
@@ -96,6 +103,7 @@
 			children = (
 				DB98EE2A27FD471400A0938C /* helloiosApp.swift */,
 				DB98EE2C27FD471400A0938C /* ContentView.swift */,
+				DB23159827FD48D800378DD9 /* New Group */,
 				DB98EE2E27FD471500A0938C /* Assets.xcassets */,
 				DB98EE3027FD471500A0938C /* Preview Content */,
 			);
@@ -144,7 +152,7 @@
 			);
 			name = helloios;
 			productName = helloios;
-			productReference = DB98EE2727FD471400A0938C /* helloios.app */;
+			productReference = DB98EE2727FD471400A0938C /* Hello.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DB98EE3627FD471600A0938C /* helloiosTests */ = {
@@ -431,7 +439,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.israelma.helloios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hello;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,7 +468,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.israelma.helloios;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Hello;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
